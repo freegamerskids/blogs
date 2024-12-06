@@ -1,0 +1,12 @@
+{
+  "name": "blogs",
+  "scripts": {
+    "create": "bun scripts/create.ts",
+    "update-name": "bun scripts/update_name.ts",
+    "add-tags": "bun scripts/add_tags.ts",
+    "remove-tag": "bun scripts/remove_tag.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
